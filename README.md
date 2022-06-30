@@ -1,1 +1,1 @@
-# palette
+### LikeLion 10th Ideathon
