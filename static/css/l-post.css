@@ -1,0 +1,188 @@
+/*게시글 제목 지정*/
+.title {
+    font-size: 2vh;
+    line-height: 3vh;
+    font-weight: 800;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    position: relative;
+}
+
+/*게시글 형식 지정*/
+.post-box {
+    width: 16.75vw;
+    height: 71vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/*각 게시글에 들어가는 사진 형식 지정*/
+.pic {
+    width: 15.8vw;
+    height: 23.3vh;
+    position: relative;
+}
+
+.pic > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+
+/*특수 페이지 지정*/
+.oct-22 {
+    width: 16.75vw;
+    height: 71vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.oct-22 > img {
+    transform: rotate(45deg);
+    width: 7.67vw;
+    height: 11.57vh;
+    position:absolute;
+    right: 2vw;
+}
+
+.last-page {
+    width: 15.83vw;
+    height: 35vh;
+    flex-grow: 0;
+    font-family: 'notosanKR';
+    font-size: 1.67vh;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #000;
+    margin-bottom: 0.3vh;
+    position: relative;
+
+}
+
+
+
+/*august 5 post*/
+
+.aug-5 {
+    width: 16.75vw;
+    height: 71vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.aug-5 > img {
+    width: 7.67vw;
+    height: 11.57vh;
+    position:absolute;
+    left: 0;
+    top: -1vw;
+}
+
+.first-page {
+    width: 15.83vw;
+    height: 35vh;
+    flex-grow: 0;
+    font-family: 'notosanKR';
+    font-size: 1.67vh;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #000;
+    margin-bottom: 0.3vh;
+    position: relative;
+}
+
+.img1 {
+    width: 15.8vw;
+    height: 10vw;
+}
+
+.img1-2 {
+    width: 15.8vw;
+    height: 10vw;
+}
+
+.img2 {
+    width: 15.8vw;
+    height: 26.76vh;
+}
+
+.img5 {
+    width: 15.8vw;
+    height: 14vw;
+}
+
+.img6{
+    width: 15.8vw;
+    height: 30.28vh;
+}
+
+.img8{
+    width: 15.8vw;
+    height: 33.24vh;
+}
+
+.img10{
+    width: 15.8vw;
+    height: 27.77vh;
+}
+
+.img11{
+    width: 15.8vw;
+    height: 45.37vh;
+}
+
+.img12{
+    width: 15.8vw;
+    height: 28.42vh;
+}
+
+.img13{
+    width: 15.8vw;
+    height: 22.87vh;
+}
+
+.img16{
+    width: 15.8vw;
+    height: 37.03vh;
+}
+
+.img18 {
+    width: 15.8vw;
+    height: 32.92vh;
+}
+
+.img19 {
+    width: 15.8vw;
+    height: 12vw;
+}
+
+.img19-2 {
+    width: 15.8vw;
+    height: 10vw;
+}
+
+.img20 {
+    width: 15.8vw;
+    height: 27.77vh;
+}
+
+.img22 {
+    width: 15.8vw;
+    height: 32.93vh;
+}
+
+.img25 {
+    width: 15.8vw;
+    height: 30.86vh;
+}
+

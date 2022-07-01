@@ -1,0 +1,171 @@
+@import url("l-post.css");
+@import url("l-folder.css");
+@import url("l-menu.css");
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../Poppins/Poppins-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'notosanKR';
+    src: url('../Noto_Sans_KR/NotoSansKR-Regular.otf') format('truetype');
+}
+
+
+
+
+
+/* reset style */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin:0;
+    padding:0;
+    font-family: 'poppins';
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
+.frame {
+    background-color: black;
+}
+
+.slack {
+    height: 8.8vh;
+}
+
+.pages {
+    margin: auto;
+}
+
+
+/* card layout */
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 85.1vw;
+    height: 78vh;
+}
+.card-wrapper > .card {
+    width:2.6vw; /*숨겨진 카드의 보이는 넓이*/
+    height: 76vh; /*카드 높이*/
+    overflow: hidden;
+    background-color: beige;
+    box-shadow: -2px 0 4px 0 rgba(0, 0, 0, 0.5);
+    padding: 2vh;
+    transition: width 0.4s ease-in-out;
+    font-size: 2vh;
+    line-height: 3vh;
+    cursor:pointer;
+}
+.card-wrapper > .card.active {
+    width:20vw;
+    opacity: 1;
+    margin-bottom: 2vh;
+}
+    
+/* image style */
+.card-wrapper > .card {
+    opacity:1;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.date {
+    font-weight: 700;
+    line-height: 3.05vh;
+    margin: 0.92vh;
+    font-family: 'poppins';
+    text-align: left;
+}
+
+/*down side area*/
+.down-bar {
+    height: 8.8vh;
+}
+
+/*page*/
+.card.page1 {
+    background-color: #FEF9DB;
+}
+.card.page2 {
+    background-color: #FFD437;
+}
+.card.page3 {
+    background-color: #FCED9D;
+}
+.card.page4 {
+    background-color: #FCC419;
+}
+.card.page5 {
+    background-color: #F08C00;
+}
+.card.page6 {
+    background-color: #FDE067;
+}
+.card.page7 {
+    background-color: #FEF9DB;
+}
+.card.page8 {
+    background-color: #E77701;
+}
+.card.page9 {
+    background-color: #FCC419;
+}
+.card.page10 {
+    background-color: #FFD437;
+}
+.card.page11 {
+    background-color: #FFF3BF;
+}
+.card.page12 {
+    background-color: #FFD437;
+}
+.card.page13 {
+    background-color: #E77701;
+}
+.card.page14 {
+    background-color: #FBB005;
+}
+.card.page15 {
+    background-color: #FFF3BF;
+}
+.card.page16 {
+    background-color: #FCED9D;
+}
+.card.page17 {
+    background-color: #FFD437;
+}
+.card.page18 {
+    background-color: #FDE067;
+}
+.card.page19 {
+    background-color: #F08C00;
+}
+.card.page20 {
+    background-color: #FDE067;
+}
+.card.page21 {
+    background-color: #E77701;
+}
+.card.page22 {
+    background-color: #FFD437;
+}
+.card.page23 {
+    background-color: #FCED9D;
+}
+.card.page24 {
+    background-color: #FEF9DB;
+}
+.card.page25 {
+    background-color: #FDE067;
+}
+.card.page26 {
+    background-color: #FCED9D;
+}
+

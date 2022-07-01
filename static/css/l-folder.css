@@ -1,0 +1,43 @@
+
+.folder-index {
+    display: flex;
+    width: 94.2vw;
+    height: 76vh;
+    margin: auto;
+}
+
+.index-bar {
+    display: flex;
+}
+
+.rss {
+    width: 3.9vw;
+    height: 22.2vh;
+    border-radius: 1.71em 0 0 1.71em;
+    background-color: #F7E125;
+    font-size: 14px;
+    position: relative;
+}
+
+.rss-bar {
+    content: '';
+    display: block;
+    height: 76vh;
+    width: 5.21vw;
+    background: #F7E125;
+    position: relative;
+}
+
+.index-color {
+    width: 22.2vh;
+    height: 9.11vw;
+    font-size: 4.44vh;
+    font-weight: 900;
+    transform: rotate(-90deg);
+    color: black;
+    position: absolute;
+    z-index: 9999;
+    left: -5vw;
+    top: 3.11vh;
+    text-align: center;
+}
