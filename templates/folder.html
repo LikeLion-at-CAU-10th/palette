@@ -1,133 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/folder_list.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="./folder.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/folder_list.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../static/js/folder.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="frame">
-        <div class="menu-bar">
-            <div class="likelion">likelion</div>
-            <div class="button calender">calender</div>
-            <div class="button post">post</div>
-            <div class="button folder">folder</div>
-            <div class="space"></div>
-            <div class="vector"><img src="../static/img/vector.png"></div>
-        </div>
-        <div class="slack"></div>
-        <div class="pages">
-            <div class="folder-index">
-                <div class="index-bar">
-                    <div class="rss"></div>
-                    <div class="rss-bar">
-                        <div class="index-color">yellow</div>
-                    </div>
-                </div>
-                <div class="card-wrapper">
-                    <div class="card page1"><p class="date">March 3,2022</p>
-                        <div class="post-box"><div class="title">따스한 봄날의 시작</div><img class="img1" src="./img/photopage/img1.png"><br><img class="img1-2" src="./img/photopage/img1 (2).png"></div>
-                    </div>
-                    <div class="card page2"><p class="date">April 15,2022</p>
-                        <div class="post-box"><div class="title">하늘이 이쁘다</div><img class="img2" src="./img/photopage/img1 (2).png"></div>
-                    </div>
-                    <div class="card page3"><p class="date">April 20,2022</p>
-                        <div class="post-box"><div class="title">벚꽃 구경을 다녀왔다</div><img src=""></div>
-                    </div>
-                    <div class="card page4"><p class="date">April 28,2022</p>
-                        <div class="post-box"><div class="title">한강 피크닉</div><img src=""></div>
-                    </div>
-                    <div class="card page5"><p class="date">May 4,2022</p>
-                        <div class="post-box"><div class="title">노오란 꽃이 피었다</div><img class="img5" src="./img/photopage/img5.jpg"></div>
-                    </div>
-                    <div class="card page6"><p class="date">May 19,2022</p>
-                        <div class="post-box"><div class="title">우리 궁, 짱!</div><img class="img6" src="./img/photopage/img6.jpg"></div>
-                    </div>
-                    <div class="card page7"><p class="date">June 10,2022</p>
-                        <div class="post-box"><div class="title">냠냠쩝쩝박사</div><img src=""></div>
-                    </div>
-                    <div class="card page8"><p class="date">June 13,2022</p>
-                        <div class="post-box"><div class="title">시험기간, 왜?</div><img class="img8" src="./img/photopage/img8.jpg"></div>
-                    </div>
-                    <div class="card page9"><p class="date">June 27,2022</p>
-                        <div class="post-box"><div class="title">종강이닷!</div><img src=""></div>
-                    </div>
-                    <div class="card page10"><p class="date">June 30,2022</p>
-                        <div class="post-box"><div class="title">하늘이 이쁘군</div><img class="img10" src="./img/photopage/img10.jpg"></div>
-                    </div>
-                    <div class="card page11"><p class="date">July 1,2022</p>
-                        <div class="post-box"><div class="title">카페인 충전 성공!</div><img class="img11" src="./img/photopage/img11.jpg"></div>
-                    </div>
-                    <div class="card page12"><p class="date">July 16,2022</p>
-                        <div class="post-box"><div class="title">마 버스데이다! 마!</div><img class="img12" src="./img/photopage/img12.jpg"></div>
-                    </div>
-                    <div class="card page13"><p class="date">July 23,2022</p>
-                        <div class="post-box"><div class="title">제주도로의 여행</div><img class="img13" src="./img/photopage/img13.jpg"></div>
-                    </div>
-                    <div class="card page14"><p class="date">July 27,2022</p>
-                        <div class="post-box"><div class="title">너무 덥다..여름이다</div><img src=""></div>
-                    </div>
-                    <div class="card page15">
-                        <p class="date">August 5,2022</p>
-                        <div class="aug-5">
-                            <img src="../static/img/2.png">
-                            <div class="title">말랑한 마음의 계절</div>
-                            <div class="first-page">
-                                오랜만에 고등학교 친구들을 만났다. 그동안 다들 바빠서 한동안 못 만났는데 오랜만에 다같이 만나서 반가웠다 !<br>일산에서 모여서 저녁 먹고 호수공원 산책했다. 회전초밥 마냥 돌돌돌돌… 한 세 시간 정도 산책한 것 같다. 걸으면서 노래도 듣고 밀린 썰도 풀고 알차게 보냈다. 날씨도 막 덥지 않고 딱 좋았고 해 지는 게 너무 예뻐서 뭔가 마음이 말랑말랑 기분이 좋았다. 편한 사람들이랑 있어서 그런가 그냥 분위기 자체가 편안하고 기분 좋았던 것 같당
-                            </div>
-                            <div class="pic"><img src="../static/img/aug-5.png"></div>
-                        </div>
-                    </div>
-            
-                    <div class="card page16"><p class="date">August 6,2022</p>
-                        <div class="post-box"><div class="title">넌..정체가 뭐니..?</div><img class="img16" src="./img/photopage/img16.jpg"></div>
-                    </div>
-                    <div class="card page17"><p class="date">August 10,2022</p>
-                        <div class="post-box"><div class="title">모기의 밥이 된 하루</div><img src=""></div>
-                    </div>
-                    <div class="card page18"><p class="date">August 13,2022</p>
-                        <div class="post-box"><div class="title">나도 만들 수 있지 않을까..?</div><img class="img18" src="../static/img/photopage/img18.jpg"></div>
-                    </div>
-                    <div class="card page19"><p class="date">September 2,2022</p>
-                        <div class="post-box"><div class="title">힐링 데이</div><img class="img19" src="../static/img/photopage/img19.jpg"><br><img class="img19-2" src="../static/img/photopage/img19(2).jpg"></div>
-                    </div>
-                    <div class="card page20"><p class="date">September 17,2022</p>
-                        <div class="post-box"><div class="title">까망이 파스타</div><img class="img20" src="../static/img/photopage/img20.jpg"></div>
-                    </div>
-                    <div class="card page21"><p class="date">September 19,2022</p>
-                        <div class="post-box"><div class="title">가을 축제,,,감성,,</div><img src=""></div>
-                    </div>
-                    <div class="card page22"><p class="date">September 21,2022</p>
-                        <div class="post-box"><div class="title">그라운드 시소</div><img class="img22" src="./img/photopage/img22.jpg"></div>
-                    </div>
-                    <div class="card page23"><p class="date">September 25,2022</p>
-                        <div class="post-box"><div class="title">종강을 내놓아랏</div><img src=""></div>
-                    </div>
-                    <div class="card page24"><p class="date">October 5,2022</p>
-                        <div class="post-box"><div class="title">소소하지만 행복한 하루</div><img src=""></div>
-                    </div>
-                    <div class="card page25"><p class="date">October 9,2022</p>
-                        <div class="post-box"><div class="title">메쉬드 포테이토 냠냠</div><img class="img25" src="./img/photopage/img25.jpg"></div>
-                    </div>
-                    <div class="card page26 active">
-                        <p class="date">October 12,2022</p>
-                        <div class="oct-22">
-                            <img src="../static/img/Union.png">
-                            <div class="title">줄리 & 줄리아</div>
-                            <div class="last-page">
-                                줄리 & 줄리아 라는 영화를 봤다. 메릴 스트립이랑 에이미 애덤스가 주인공으로 나오는 영화인데 두 주인공이 너무 사랑스러워서 영화 보는 내내 즐거웠다. 배경으로 나오는 1950년대 프랑스 모습도 정말 예쁘고 뭔가 가만히 요리하는 걸 보고 있는게 묘하게 힐링 되고 좋았다. 영화 보는 내내 프랑스 요리도 먹어보고 싶었당 배우들 연기도 그렇고 색감이나 배경음악 등이 따뜻한 느낌이 나서 오래 여운이 남았던 것 …
-                            </div>
-                            <div class="pic"><img src="../static/img/oct-22.png"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="menu-bar">
+        <div class="likelion">likelion</div>
+        <div class="button calender">calender</div>
+        <div class="button post">post</div>
+        <div class="button folder">folder</div>
+        <div class="space"></div>
+        <div class="vector"><img src="../static/img/vector.png" /></div>
+      </div>
+      <div class="slack"></div>
+      <div class="pages">
+        <div class="folder-index">
+          <div class="index-bar">
+            <div class="rss"></div>
+            <div class="rss-bar">
+              <div class="index-color">yellow</div>
             </div>
+          </div>
+          <div class="card-wrapper">
+            <div class="card page1">
+              <p class="date">March 3,2022</p>
+              <div class="post-box">
+                <div class="title">따스한 봄날의 시작</div>
+                <img class="img1" src="./img/photopage/img1.png" /><br /><img
+                  class="img1-2"
+                  src="./img/photopage/img1 (2).png"
+                />
+              </div>
+            </div>
+            <div class="card page2">
+              <p class="date">April 15,2022</p>
+              <div class="post-box">
+                <div class="title">하늘이 이쁘다</div>
+                <img class="img2" src="./img/photopage/img1 (2).png" />
+              </div>
+            </div>
+            <div class="card page3">
+              <p class="date">April 20,2022</p>
+              <div class="post-box">
+                <div class="title">벚꽃 구경을 다녀왔다</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page4">
+              <p class="date">April 28,2022</p>
+              <div class="post-box">
+                <div class="title">한강 피크닉</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page5">
+              <p class="date">May 4,2022</p>
+              <div class="post-box">
+                <div class="title">노오란 꽃이 피었다</div>
+                <img class="img5" src="./img/photopage/img5.jpg" />
+              </div>
+            </div>
+            <div class="card page6">
+              <p class="date">May 19,2022</p>
+              <div class="post-box">
+                <div class="title">우리 궁, 짱!</div>
+                <img class="img6" src="./img/photopage/img6.jpg" />
+              </div>
+            </div>
+            <div class="card page7">
+              <p class="date">June 10,2022</p>
+              <div class="post-box">
+                <div class="title">냠냠쩝쩝박사</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page8">
+              <p class="date">June 13,2022</p>
+              <div class="post-box">
+                <div class="title">시험기간, 왜?</div>
+                <img class="img8" src="./img/photopage/img8.jpg" />
+              </div>
+            </div>
+            <div class="card page9">
+              <p class="date">June 27,2022</p>
+              <div class="post-box">
+                <div class="title">종강이닷!</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page10">
+              <p class="date">June 30,2022</p>
+              <div class="post-box">
+                <div class="title">하늘이 이쁘군</div>
+                <img class="img10" src="./img/photopage/img10.jpg" />
+              </div>
+            </div>
+            <div class="card page11">
+              <p class="date">July 1,2022</p>
+              <div class="post-box">
+                <div class="title">카페인 충전 성공!</div>
+                <img class="img11" src="./img/photopage/img11.jpg" />
+              </div>
+            </div>
+            <div class="card page12">
+              <p class="date">July 16,2022</p>
+              <div class="post-box">
+                <div class="title">마 버스데이다! 마!</div>
+                <img class="img12" src="./img/photopage/img12.jpg" />
+              </div>
+            </div>
+            <div class="card page13">
+              <p class="date">July 23,2022</p>
+              <div class="post-box">
+                <div class="title">제주도로의 여행</div>
+                <img class="img13" src="./img/photopage/img13.jpg" />
+              </div>
+            </div>
+            <div class="card page14">
+              <p class="date">July 27,2022</p>
+              <div class="post-box">
+                <div class="title">너무 덥다..여름이다</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page15">
+              <p class="date">August 5,2022</p>
+              <div class="aug-5">
+                <img src="../static/img/2.png" />
+                <div class="title">말랑한 마음의 계절</div>
+                <div class="first-page">
+                  오랜만에 고등학교 친구들을 만났다. 그동안 다들 바빠서 한동안
+                  못 만났는데 오랜만에 다같이 만나서 반가웠다 !<br />일산에서
+                  모여서 저녁 먹고 호수공원 산책했다. 회전초밥 마냥 돌돌돌돌… 한
+                  세 시간 정도 산책한 것 같다. 걸으면서 노래도 듣고 밀린 썰도
+                  풀고 알차게 보냈다. 날씨도 막 덥지 않고 딱 좋았고 해 지는 게
+                  너무 예뻐서 뭔가 마음이 말랑말랑 기분이 좋았다. 편한
+                  사람들이랑 있어서 그런가 그냥 분위기 자체가 편안하고 기분
+                  좋았던 것 같당
+                </div>
+                <div class="pic"><img src="../static/img/aug-5.png" /></div>
+              </div>
+            </div>
+
+            <div class="card page16">
+              <p class="date">August 6,2022</p>
+              <div class="post-box">
+                <div class="title">넌..정체가 뭐니..?</div>
+                <img class="img16" src="./img/photopage/img16.jpg" />
+              </div>
+            </div>
+            <div class="card page17">
+              <p class="date">August 10,2022</p>
+              <div class="post-box">
+                <div class="title">모기의 밥이 된 하루</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page18">
+              <p class="date">August 13,2022</p>
+              <div class="post-box">
+                <div class="title">나도 만들 수 있지 않을까..?</div>
+                <img class="img18" src="../static/img/photopage/img18.jpg" />
+              </div>
+            </div>
+            <div class="card page19">
+              <p class="date">September 2,2022</p>
+              <div class="post-box">
+                <div class="title">힐링 데이</div>
+                <img
+                  class="img19"
+                  src="../static/img/photopage/img19.jpg"
+                /><br /><img
+                  class="img19-2"
+                  src="../static/img/photopage/img19(2).jpg"
+                />
+              </div>
+            </div>
+            <div class="card page20">
+              <p class="date">September 17,2022</p>
+              <div class="post-box">
+                <div class="title">까망이 파스타</div>
+                <img class="img20" src="../static/img/photopage/img20.jpg" />
+              </div>
+            </div>
+            <div class="card page21">
+              <p class="date">September 19,2022</p>
+              <div class="post-box">
+                <div class="title">가을 축제,,,감성,,</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page22">
+              <p class="date">September 21,2022</p>
+              <div class="post-box">
+                <div class="title">그라운드 시소</div>
+                <img class="img22" src="./img/photopage/img22.jpg" />
+              </div>
+            </div>
+            <div class="card page23">
+              <p class="date">September 25,2022</p>
+              <div class="post-box">
+                <div class="title">종강을 내놓아랏</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page24">
+              <p class="date">October 5,2022</p>
+              <div class="post-box">
+                <div class="title">소소하지만 행복한 하루</div>
+                <img src="" />
+              </div>
+            </div>
+            <div class="card page25">
+              <p class="date">October 9,2022</p>
+              <div class="post-box">
+                <div class="title">메쉬드 포테이토 냠냠</div>
+                <img class="img25" src="./img/photopage/img25.jpg" />
+              </div>
+            </div>
+            <div class="card page26 active">
+              <p class="date">October 12,2022</p>
+              <div class="oct-22">
+                <img src="../static/img/Union.png" />
+                <div class="title">줄리 & 줄리아</div>
+                <div class="last-page">
+                  줄리 & 줄리아 라는 영화를 봤다. 메릴 스트립이랑 에이미
+                  애덤스가 주인공으로 나오는 영화인데 두 주인공이 너무
+                  사랑스러워서 영화 보는 내내 즐거웠다. 배경으로 나오는 1950년대
+                  프랑스 모습도 정말 예쁘고 뭔가 가만히 요리하는 걸 보고 있는게
+                  묘하게 힐링 되고 좋았다. 영화 보는 내내 프랑스 요리도 먹어보고
+                  싶었당 배우들 연기도 그렇고 색감이나 배경음악 등이 따뜻한
+                  느낌이 나서 오래 여운이 남았던 것 …
+                </div>
+                <div class="pic"><img src="../static/img/oct-22.png" /></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="down-bar"></div>
+      </div>
+      <div class="down-bar"></div>
     </div>
-</body>
+  </body>
 </html>
