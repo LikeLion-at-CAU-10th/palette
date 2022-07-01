@@ -39,26 +39,6 @@ body {
     text-decoration-thickness: 2px;
 }
 
-/*#calb {
-    position: absolute;
-    cursor: pointer;
-    width: 8.33vw;
-    height: 2.50vw;
-    left: 32.15vw;
-    top: 2.85vw;
-    border: 1.5px solid #FFFFFF;
-    border-radius: 33.5px;
-}
-
-#slash{
-    position: absolute;
-    font-weight: 500;
-    width: 0.56vw;
-    height: 1.88vw;
-    left: 43.61vw;
-    top: 3.06vw;
-}*/
-
 #post{
     position: absolute;
     width: 2.92vw;
@@ -72,27 +52,6 @@ body {
     text-decoration-thickness: 2px;
 }
 
-/*#postb{
-    box-sizing: border-box;
-    cursor: pointer;
-    position: absolute;
-    width: 5.42vw;
-    height: 2.50vw;
-    left: 47.29vw;
-    top: 2.78vw;
-    border: 1.5px solid #FFFFFF;
-    border-radius: 33.5px;
-}
-
-#slash2{
-    position: absolute;
-    font-weight: 500;
-    width: 0.56vw;
-    height: 1.88vw;
-    left: 55.83vw;
-    top: 3.06vw;
-}*/
-
 #edit{
     position: absolute;
     cursor: pointer;
@@ -104,17 +63,6 @@ body {
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
 }
-
-/*#editb {
-    position: absolute;
-    cursor: pointer;
-    width: 8.54vw;
-    height: 2.50vw;
-    left: 59.51vw;
-    top: 2.78vw;
-    border: 1.5px solid #FFFFFF;
-    border-radius: 33.5px;
-}*/
 
 #account {
     position: absolute;
@@ -223,7 +171,6 @@ body {
 
 #c1{
     position: absolute;
-    visibility: hidden;
     width: 8.33vw;
     height: 8.33vw;
     left: 64.86vw;
@@ -235,7 +182,6 @@ body {
 
 #c2{
     position: absolute;
-    visibility: hidden;
     width: 8.33vw;
     height: 8.33vw;
     left: 58.54vw;
@@ -247,7 +193,6 @@ body {
 
 #c3{
     position: absolute;
-    visibility: hidden;
     width: 8.33vw;
     height: 8.33vw;
     left: 52.22vw;
