@@ -25,19 +25,20 @@
 }
 
 .space {
-    width: 12vw;
+    width: 8vw;
 }
 
 .vector {
     width: 3vw;
     color: white;
-    margin: 0.5vw 0 0.5vw 6.11vw;
+    margin: 0.5vw 0 0.5vw 4.11vw;
 }
 
 .vector > img {
     width: 2.08vw;
     height: 2.08vw;
     margin: auto;
+    margin-right: 2vw;
 }
 
 .folder {
