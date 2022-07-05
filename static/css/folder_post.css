@@ -18,6 +18,15 @@
     position: relative;
 }
 
+.post-content {
+    font-family: 'notosanKR';
+    font-size: 1.67vh;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: justify;
+}
+
+
 /*각 게시글에 들어가는 사진 형식 지정*/
 .pic {
     width: 15.8vw;
