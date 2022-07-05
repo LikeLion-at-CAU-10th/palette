@@ -4,19 +4,22 @@ html{
 }
 
 body{
+    /* max-width: 100%; */
     background-color: #000000;
-    /* width: 100vw;
-    height: 86.1111vw; */
     flex-grow: 0;
-    padding: 2.7778vw 21.5278vw 5.5556vw ;
+    padding: 0 21.5278vw 3vw ;
     left: fixed;
     right: fixed;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
 
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
     user-select:none;
-
 }
 
 
@@ -26,6 +29,11 @@ body{
     display: flex;
     padding: 0 23.3333vw 0 0;
     position: relative;
+    height: 3vw;
+
+    border-color: transparent;
+
+
 }
 
 .colorBox{
@@ -33,6 +41,9 @@ body{
     padding: 0.3vw 0.6vw;
     justify-content: center;
     align-items: center;
+
+    border-color: transparent;
+
 }
 
 .colorBox-text{
@@ -47,7 +58,7 @@ body{
 
     /* 메뉴 버튼 겹치게  */
     position: absolute;
-    left: 11.8vw;
+    left: 12.8vw;
     
 }
 
@@ -59,17 +70,16 @@ body{
 
      /* 메뉴 버튼 겹치게  */
     position: absolute;
-    left: 24vw;
+    left: 25.3vw;
 }
 
 #Box{
     background-color: #ffffff;
-    /* width: 11.8056vw; */
-    /* width: 13vw; */
+
 
     width: 12vw;
     height: 3.1250vw;
-    border: solid 0.0694vw #000;
+    border: solid 0.0694vw transparent;
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
 
@@ -91,7 +101,7 @@ body{
     line-height: normal;
     letter-spacing: normal;
 
-    /* text-align: left; */
+    border-color: transparent;
 }
 
 .colorBox-color{
@@ -99,32 +109,32 @@ body{
     height: 1vw;
     border: #000000;
     background-color: #000000;
-    margin: 0 0 0 25px;
+    margin: 0.1vw 0 0 2vw;
 }
 
-.stickerBox-sticker{
-    width: 1.3889vw;
-    height: 1.3889vw;
-    /* margin: 0.1389vw 0 0.1389vw 0.6944vw; */
+.Star4{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin: 0.1vw 0 0 0.4vw;
 }
-.imageBox-image{
-    width: 1.0972vw;
-    height: 1.0972vw;
+.camera{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin: 0.1vw 0 0 0.4vw;
 }
 
 /* 글쓰기 부분 */
 
 .textBox{
-    /* width: 56.9444vw; */
     height: 64.2361vw;
-    /* margin: 11.0417vw 0 0; */
-    padding: 2.6389vw 2.9167vw 1.5972vw 0.9722vw;
-    border: solid 0.0694vw #000;
+    padding: 0 2.9167vw 1.5vw 0.9722vw;
+    border: solid 0.0694vw transparent;
     background-color: white;
+    border-color: transparent;
 
     display: flex;
     flex-direction: column;
-    justify-content: centers;
+    justify-content: center;
     align-items: center;
 
 }
@@ -132,26 +142,71 @@ body{
 #Textone{
     width: 80%;
     border-color: transparent;
+    padding: 3vw 0 0 0;
 }
 
 #Texttwo{
     width: 80%;
     border-color: transparent;
+    padding: 1vw;
 }
 
 
 
 
 .textTitle{
-    flex-basis: 10%;
+    flex-basis: 5%;
+    font-size: 1.2vw;
 }
 
 .textMain{
-    flex-basis: 80%;
+    flex-basis: 75%;
+    font-size: 1vw;
     
 }
 
+hr{
+    width: 80%;
+    background-color: #d6d5d5;
+    height: 0.05vw;
+    border-color: transparent;
+    
+    
+
+}
+
+/* 업로드 버튼 */
+/* uploadingButton=container, Upload=item */
+
+.uploadingButton {
+    font-family: "Poppins-Black";
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.3264vw;
+    border: solid 0.1vw #000000;
+    border-color: black;
+
+    width: 7vw;
+    height: 2vw;
+}
+
+.Upload {
+    font-size: 1vw;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 0;
+    margin: 0;
+    } 
+
+
+
+
 input:focus{outline:none;}
+textarea:focus{outline:none;}
 
 
 
