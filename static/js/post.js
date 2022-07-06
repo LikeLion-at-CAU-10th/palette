@@ -1,5 +1,11 @@
-// var x= document.getElementById('Text');
+function done(){
+    alert("발행되었습니다.");
+}
 
-// var x = document.createElement('INPUT');
+// Swal.fire(
+//     '발행이 완료 되었습니다.',
+//     '게시물을 확인하시겠습니까?',
+//     'success',
 
-// x.setAttribute("type", "text");
+    
+// )
