@@ -22,7 +22,7 @@
 
 .bt {
     width: 22.2917vw;
-    padding: 0.9722vw 0 0 0;
+    padding: 0.9722vw 0 0.9722vw 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
