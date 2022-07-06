@@ -125,7 +125,7 @@ body {
 .v231_1020 {
   width: 100%;
   height: 100%;
-  background: #0032e5;
+  background: #6989ff;
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -204,7 +204,7 @@ body {
   background: #91a6ff;
   opacity: 1;
   position: absolute;
-  top: 14.6vw;
+  top: 21vw;
   left: 35vw;
   overflow: hidden;
   cursor: pointer;
@@ -248,8 +248,8 @@ body {
   background: #364fc6;
   opacity: 1;
   position: absolute;
-  top: 21vw;
-  left: 26.8vw;
+  top: 27.5vw;
+  left: 26.9vw;
   overflow: hidden;
   cursor: pointer;
 }
@@ -270,8 +270,8 @@ body {
   background: #e2fafc;
   opacity: 1;
   position: absolute;
-  top: 27.4vw;
-  left: 35vw;
+  top: 40.5vw;
+  left: 26.9vw;
   overflow: hidden;
   cursor: pointer;
 }
@@ -282,7 +282,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 40.5vw;
-  left: 18.8vw;
+  left: 18.9vw;
   overflow: hidden;
   cursor: pointer;
 }
@@ -293,7 +293,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 34vw;
-  left: 27vw;
+  left: 26.9vw;
   overflow: hidden;
   cursor: pointer;
 }
@@ -332,7 +332,7 @@ body {
 }
 .v231_1050 {
   width: 5px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 15vw;
   left: 35.4vw;
@@ -488,7 +488,7 @@ body {
 }
 .v231_1063 {
   width: 5px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 21.3vw;
   left: 35.4vw;
@@ -501,7 +501,7 @@ body {
 }
 .v231_1064 {
   width: 5px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 27.8vw;
   left: 35.5vw;
@@ -537,7 +537,7 @@ body {
 }
 .v231_1067 {
   width: 5px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
   top: 21.3vw;
   left: 27.2vw;
@@ -550,7 +550,7 @@ body {
 }
 .v231_1068 {
   width: 5px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 27.8vw;
   left: 27.5vw;
@@ -574,7 +574,7 @@ body {
 }
 .v231_1070 {
   width: 5px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 40.8vw;
   left: 27.4vw;
@@ -863,5 +863,5 @@ body {
 }
 
 .pad {
-  padding-top: 2.85vw;
+  padding-top: 3vw;
 }
