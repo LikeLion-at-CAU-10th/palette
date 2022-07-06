@@ -8,20 +8,26 @@
 
 .likelion {
     width: 45vw;
-    color: white;
-    font-size: 2.43vh;
-    font-weight: 700;
-    font-family: 'poppins';
     text-align: center;
     margin: auto;
 }
 
 .button {
-    color: white;
+    text-decoration: none;
+    color: #FFFFFF;
     font-size: 2.43vh;
     font-weight: 700;
     font-family: 'poppins';
     margin: auto;
+    
+}
+
+.button a {
+    color: inherit;
+}
+
+.calender:hover, .folder:hover, .post:hover {
+    opacity: 0.8;
 }
 
 .space {
@@ -30,7 +36,7 @@
 
 .vector {
     width: 3vw;
-    color: white;
+    color: #FFFFFF;
     margin: 0.5vw 0 0.5vw 4.11vw;
 }
 
