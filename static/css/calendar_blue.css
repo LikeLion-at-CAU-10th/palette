@@ -2,11 +2,11 @@
 
 body {
   box-sizing: border-box;
-  font-size: 0.875rem;
+  margin: 0;
 }
 
 .menu-bar {
-  height: 6.11vh;
+  height: 7vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -29,7 +29,7 @@ body {
 
 .bt {
   width: 22.2917vw;
-  padding: 0.9722vw 0 0 0;
+  padding: 0.9722vw 0 0.9722vw 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,7 +100,7 @@ body {
   width: 56.8vw;
   height: 0px;
   left: 10.6vw;
-  top: 27.2vw;
+  top: 27.4vw;
   border: 0.063rem solid #ffffff;
 }
 
@@ -109,7 +109,7 @@ body {
   width: 56.8vw;
   height: 0px;
   left: 10.6vw;
-  top: 33.2vw;
+  top: 33.9vw;
   border: 0.063rem solid #ffffff;
 }
 
@@ -118,7 +118,7 @@ body {
   width: 56.8vw;
   height: 0px;
   left: 10.6vw;
-  top: 39vw;
+  top: 40.5vw;
   border: 0.063rem solid #ffffff;
 }
 
@@ -135,7 +135,7 @@ body {
 
 .v231_1025 {
   width: 56.82vw;
-  height: 33vw;
+  height: 34.5vw;
   left: 10.6vw;
   top: 12.5vw;
   background: rgba(0, 0, 0, 1);
@@ -216,13 +216,13 @@ body {
   opacity: 1;
   position: absolute;
   top: 14.6vw;
-  left: 43.2vw;
+  left: 43vw;
   overflow: hidden;
   cursor: pointer;
 }
 .v231_1040 {
   width: 8.1vw;
-  height: 6.3vw;
+  height: 6.5vw;
   background: #4eabf8;
   opacity: 1;
   position: absolute;
@@ -233,66 +233,66 @@ body {
 }
 .v231_1041 {
   width: 7.7vw;
-  height: 6.3vw;
+  height: 6.5vw;
   background: #a4d8ff;
   opacity: 1;
   position: absolute;
   top: 21vw;
-  left: 43.3vw;
+  left: 43vw;
   overflow: hidden;
   cursor: pointer;
 }
 .v231_1042 {
   width: 8vw;
-  height: 6.3vw;
+  height: 6.5vw;
   background: #364fc6;
   opacity: 1;
   position: absolute;
   top: 21vw;
-  left: 27vw;
+  left: 26.8vw;
   overflow: hidden;
   cursor: pointer;
 }
 .v231_1043 {
   width: 8.2vw;
-  height: 6vw;
+  height: 6.5vw;
   background: #e7f5fe;
   opacity: 1;
   position: absolute;
-  top: 27.3vw;
+  top: 27.4vw;
   left: 51vw;
   overflow: hidden;
   cursor: pointer;
 }
 .v231_1044 {
   width: 8.3vw;
-  height: 6vw;
+  height: 6.5vw;
   background: #e2fafc;
   opacity: 1;
   position: absolute;
-  top: 27.3vw;
+  top: 27.4vw;
   left: 35vw;
   overflow: hidden;
   cursor: pointer;
 }
 .v231_1045 {
   width: 8.3vw;
-  height: 5.72vw;
+  height: 6.5vw;
   background: #99e9f2;
   opacity: 1;
   position: absolute;
-  top: 33.3vw;
+  top: 40.5vw;
   left: 18.8vw;
   overflow: hidden;
   cursor: pointer;
 }
 .v231_1201 {
   width: 8vw;
-  height: 5.72vw;
+  height: 6.5vw;
   background: #a4d8ff;
   opacity: 1;
   position: absolute;
-  top: 33.3vw;
+  top: 34vw;
   left: 27vw;
   overflow: hidden;
   cursor: pointer;
@@ -392,7 +392,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 27.5vw;
+  top: 27.8vw;
   left: 59.6vw;
   font-family: Poppins;
   font-weight: bold;
@@ -404,7 +404,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 33.5vw;
+  top: 34.2vw;
   left: 59.7vw;
   font-family: Poppins;
   font-weight: bold;
@@ -428,7 +428,7 @@ body {
   width: 5px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 27.5vw;
+  top: 27.8vw;
   left: 51.5vw;
   font-family: Poppins;
   font-weight: bold;
@@ -440,7 +440,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 33.5vw;
+  top: 34.2vw;
   left: 51.4vw;
   font-family: Poppins;
   font-weight: bold;
@@ -466,7 +466,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 27.5vw;
+  top: 27.8vw;
   left: 43.8vw;
   font-family: Poppins;
   font-weight: bold;
@@ -478,7 +478,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 33.5vw;
+  top: 34.2vw;
   left: 43.7vw;
   font-family: Poppins;
   font-weight: bold;
@@ -503,7 +503,7 @@ body {
   width: 5px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 27.5vw;
+  top: 27.8vw;
   left: 35.5vw;
   font-family: Poppins;
   font-weight: bold;
@@ -515,7 +515,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 33.5vw;
+  top: 34.2vw;
   left: 35.5vw;
   font-family: Poppins;
   font-weight: bold;
@@ -527,7 +527,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 39.2vw;
+  top: 40.8vw;
   left: 35.5vw;
   font-family: Poppins;
   font-weight: bold;
@@ -552,7 +552,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 27.5vw;
+  top: 27.8vw;
   left: 27.5vw;
   font-family: Poppins;
   font-weight: bold;
@@ -564,7 +564,7 @@ body {
   width: 5px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 33.5vw;
+  top: 34.2vw;
   left: 27.4vw;
   font-family: Poppins;
   font-weight: bold;
@@ -576,7 +576,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 39.2vw;
+  top: 40.8vw;
   left: 27.4vw;
   font-family: Poppins;
   font-weight: bold;
@@ -600,7 +600,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 27.5vw;
+  top: 27.8vw;
   left: 19.2vw;
   font-family: Poppins;
   font-weight: bold;
@@ -610,9 +610,9 @@ body {
 }
 .v231_1073 {
   width: 5px;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 33.5vw;
+  top: 34.2vw;
   left: 19.2vw;
   font-family: Poppins;
   font-weight: bold;
@@ -622,9 +622,9 @@ body {
 }
 .v231_1074 {
   width: 5px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 39.2vw;
+  top: 40.8vw;
   left: 19.1vw;
   font-family: Poppins;
   font-weight: bold;
@@ -648,7 +648,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 27.5vw;
+  top: 27.8vw;
   left: 11vw;
   font-family: Poppins;
   font-weight: bold;
@@ -660,7 +660,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 33.5vw;
+  top: 34.2vw;
   left: 11vw;
   font-family: Poppins;
   font-weight: bold;
@@ -672,7 +672,7 @@ body {
   width: 5px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-  top: 39.2vw;
+  top: 40.8vw;
   left: 11vw;
   font-family: Poppins;
   font-weight: bold;
@@ -856,4 +856,8 @@ body {
 .v231_1092:hover,
 .v231_1093:hover {
   opacity: 0.8;
+}
+
+.box {
+  width: 8vw;
 }
