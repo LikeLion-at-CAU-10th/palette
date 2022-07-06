@@ -11,6 +11,7 @@
   justify-content: center;
   background-color: black;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
 
   z-index: 100;
@@ -31,7 +32,7 @@
 
 .bt {
   width: 22.2917vw;
-  padding: 0.9722vw 0 0 0;
+  padding: 0.5772vw 0 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -53,6 +54,7 @@
 .folder {
   width: 3.8194vw;
   height: 1.8750vw;
+
 }
 
 .post {
@@ -74,7 +76,7 @@
 .vector {
   width: 21.5278vw;
   color: #FFFFFF;
-  padding: 0.8333vw 1.3889vw 0 0;
+  padding: 0vw 1.3889vw 0 0;
 }
 
 .vector > img {
@@ -87,6 +89,80 @@
 .post {
   text-decoration: underline;
   text-decoration-color: white;
+}
+
+
+/* 폴더 선택  */
+.folder{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+
+  cursor: pointer;
+  /* margin: 0.1vw;; */
+}
+
+.folder-select{
+  display: flex;
+  justify-content: center;
+  width: 12vw;
+  height: 12vw;
+}
+
+.folder:hover .fol{
+  visibility: visible;
+}
+
+.fol{
+  width: 2vw;
+  height: 2vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+
+.folderIndv{
+  width: 1.5vw;
+  height: 1.5vw;
+  margin : 3vw 0.2vw 0 0.2vw;
+
+  border-radius: 50%;
+  box-shadow: 0.3vw 0.6vw 0.6vw rgba(55, 55, 55, 0.1);
+  border: solid 0.03vw rgba(255, 255, 255, 0.5);
+
+  cursor: pointer;
+}
+
+.blueFolder{
+  background-color: rgba(0, 56, 255, 0.5);
+}
+.greenFolder{
+  background-color: rgba(85, 214, 90, 0.5);
+}
+.yellowFolder{
+  background-color: rgba(247, 226, 37, 0.5);
+}
+.redFolder{
+  background-color: rgba(255, 58, 58, 0.5);
+}
+
+.bf:hover .blueFolder{
+  background-color: rgba(0, 56, 255, 1);
+}
+
+.gf:hover .greenFolder{
+  background-color: rgba(85, 214, 90, 1);
+}
+
+.yf:hover .yellowFolder{
+  background-color: rgba(247, 226, 37, 1);
+}
+
+.rf:hover .redFolder{
+  background-color: rgba(255, 58, 58, 1);
 }
 
 
