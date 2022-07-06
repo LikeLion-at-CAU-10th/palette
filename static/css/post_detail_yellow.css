@@ -153,6 +153,53 @@ body {
   height: 132px;
 }
 
+body.dark .textBox {
+  background: #fff;
+  border: solid 1px #fff;
+}
+
+body.dark .post {
+  background: #fff;
+}
+
+body.dark h3 {
+  color: #000;
+}
+
+body.dark .textBox .date {
+  color: #a0a0a0;
+}
+
+body.dark .textBox .change {
+  color: #a0a0a0;
+}
+
+body.dark .post p {
+  color: #000000;
+}
+
+body.dark .maincolor {
+  background-color: #fff;
+}
+body.dark .maincolor p {
+  color: #000000;
+}
+body.dark .prev {
+  background-color: #fff;
+}
+body.dark .prev p {
+  color: #000000;
+}
+body.dark .next {
+  background-color: #fff;
+}
+body.dark .next p {
+  color: #000000;
+}
+body.dark .label {
+  background-color: #c7c7c7;
+}
+
 .label {
   top: -22px;
   left: 960px;
@@ -187,7 +234,6 @@ body {
 .post {
   width: 1000px;
   font-family: "NotoSansKR";
-  font-weight: lighter;
   margin-left: 130px;
   margin-top: 60px;
   position: absolute;
@@ -196,12 +242,14 @@ body {
 .post > p {
   text-align: justify;
   line-height: 37px;
+  font-family: "NotoSansKR";
   color: #ffffff;
   font-size: 20.5px;
-  font-weight: 350;
+  font-weight: ;
 }
 
 .post > h3 {
+  font-family: "NotoSansKR";
   line-height: 80px;
   border-bottom: solid 3.5px rgb(201, 201, 201);
   font-size: 25px;
@@ -210,18 +258,21 @@ body {
 }
 
 .post > span.date {
-  font-weight: 50;
+  font-family: "NotoSansKR";
+  font-weight: 100;
   font-size: 18px;
   color: #ffffff;
 }
 
 .post > span.change {
+  font-family: "NotoSansKR";
   position: absolute;
-  font-weight: 50;
+  font-weight: 100;
   font-size: 18px;
   color: #ffffff;
   left: 850px;
 }
+
 .pic {
   width: 1030px;
   height: 550px;
