@@ -166,7 +166,7 @@ body {
   position: absolute;
   top: 20px;
   left: 1155px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: Bold;
   font-size: 19px;
   opacity: 1;
@@ -507,7 +507,7 @@ body {
 }
 .v231_1058 {
   width: 5px;
-  color: rgba(0, 0, 0, 1));
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 572px;
   left: 1185px;
@@ -591,7 +591,7 @@ body {
 }
 .v231_1065 {
   width: 5px;
-  color: rgba(0, 0, 0, 1));
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 692px;
   left: 815px;

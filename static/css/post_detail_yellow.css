@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Yeon+Sung&display=swap");
+
 body {
   margin: 0;
   background-color: #fff3bf;
@@ -21,8 +23,8 @@ body {
   position: absolute;
   top: 20px;
   left: 1360px;
-  font-famly: Poppins;
-  font-weight: Bold;
+  font-family: "Poppins";
+  font-weight: 600;
   font-size: 19px;
   opacity: 1;
   text-align: left;
@@ -35,8 +37,8 @@ body {
   position: absolute;
   top: 20px;
   left: 1155px;
-  font-family: Poppins;
-  font-weight: Bold;
+  font-family: "Poppins";
+  font-weight: 600;
   font-size: 19px;
   opacity: 1;
   text-align: left;
@@ -49,8 +51,8 @@ body {
   position: absolute;
   top: 20px;
   left: 1500px;
-  font-family: Poppins;
-  font-weight: Bold;
+  font-family: "Poppins";
+  font-weight: 600;
   font-size: 19px;
   opacity: 1;
   text-align: left;
