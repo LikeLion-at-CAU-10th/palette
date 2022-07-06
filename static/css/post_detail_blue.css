@@ -210,6 +210,7 @@ body.dark .label {
   border-radius: 50px;
   transform: scale(1.5);
   position: absolute;
+  cursor: pointer;
 }
 
 .ball {
@@ -246,7 +247,6 @@ body.dark .label {
   font-family: "NotoSansKR";
   color: #ffffff;
   font-size: 20.5px;
-  font-weight: ;
 }
 
 .post > h3 {
