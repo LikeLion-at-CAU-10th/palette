@@ -12,7 +12,7 @@ body {
 }
 
 .all {
-  padding: 7vw 21.5278vw 3vw;
+  padding: 13vw 21.5278vw 3vw;
 }
 
 html {
@@ -114,7 +114,7 @@ html {
 .maincolor > p {
   color: rgba(255, 255, 255, 1);
   font-family: "Poppins";
-  font-weight: 700;
+  font-weight: 550;
   width: 12vw;
   height: 1.6667vw;
   margin: 0 0.6944vw 0 0;
@@ -123,15 +123,15 @@ html {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  padding-top: 0.8vw;
+  padding-top: 1vw;
   padding-left: 2.5vw;
 }
 .maincolor > .colorbox {
   position: absolute;
-  top: 1.25vw;
-  left: 9.4vw;
-  width: 0.9vw;
-  height: 0.9vw;
+  top: 1.55vw;
+  left: 9.3vw;
+  width: 0.8vw;
+  height: 0.8vw;
   background-color: #fff3bf;
 }
 
@@ -147,7 +147,7 @@ html {
 .prev > p {
   color: rgba(255, 255, 255, 1);
   font-family: "Poppins";
-  font-weight: 700;
+  font-weight: 550;
   width: 12vw;
   height: 1.6667vw;
   margin: 0 0.6944vw 0 0;
@@ -157,7 +157,7 @@ html {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  padding-top: 0.8vw;
+  padding-top: 1vw;
 }
 .next {
   background-color: rgba(0, 0, 0, 1);
@@ -169,7 +169,7 @@ html {
   cursor: pointer;
 }
 .next > p {
-  font-weight: 700;
+  font-weight: 550;
   color: rgba(255, 255, 255, 1);
   font-family: "Poppins";
   width: 12vw;
@@ -181,7 +181,7 @@ html {
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  padding-top: 0.8vw;
+  padding-top: 1vw;
 }
 .textBox {
   background-color: #000;
