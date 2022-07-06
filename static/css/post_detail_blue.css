@@ -5,69 +5,6 @@ body {
   margin: 0%;
 }
 
-.nav {
-  height: 70px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 1);
-}
-
-.logo {
-  width: 5rem;
-  height: 2.7rem;
-  margin-top: 15px;
-  margin-left: 400px;
-}
-.v231_1023 {
-  width: 50px;
-  color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 20px;
-  left: 1360px;
-  font-family: "Poppins";
-  font-weight: 600;
-  font-size: 19px;
-  opacity: 1;
-  text-align: left;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-.v231_1300 {
-  width: 50px;
-  color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 20px;
-  left: 1155px;
-  font-family: "Poppins";
-  font-weight: 600;
-  font-size: 19px;
-  opacity: 1;
-  text-align: left;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-.v231_1301 {
-  width: 50px;
-  color: rgba(255, 255, 255, 1);
-  position: absolute;
-  top: 20px;
-  left: 1500px;
-  font-family: "Poppins";
-  font-weight: 600;
-  font-size: 19px;
-  opacity: 1;
-  text-align: left;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-.account {
-  width: 2.5rem;
-  height: 2.5rem;
-  top: 15px;
-  margin-left: 1750px;
-  position: absolute;
-  cursor: pointer;
-}
-
 .maincolor {
   height: 3.8rem;
   background-color: rgba(0, 0, 0, 1);
