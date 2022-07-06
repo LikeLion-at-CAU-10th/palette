@@ -8,6 +8,9 @@ var beforeColor;
 window.onload = function () {
     init();
     initS();
+    // orangeSticker();
+    // pinkSticker();
+    // greenSticker();
     };
 
     function init() {
@@ -80,20 +83,6 @@ window.onload = function () {
     }
     }
 
-    // onclick event
-    // colorSet->배경색 바꾸는 함수
-    // function colorSet(target) {
-    //         document.querySelector('body').style.background = target.id;
-
-    //         if (beforeColor != undefined && beforeColor != null) {
-    //             document.getElementById(beforeColor).className = document
-    //             .getElementById(beforeColor)
-    //             .className.replace("active", "");
-    //         }
-    //         document.getElementById(target).className += " active";
-    //         beforeColor = target.id;
-    // }
-
 
     function colorSet(target) {
             document.querySelector(".colorBox-color").style.background = target.id;
@@ -114,22 +103,86 @@ window.onload = function () {
 
 
 
+// function initS(){
+//             stickerArr=[
+//                 "Star4","Star5","Star6",
+//                 "Star10","Star11","Star12",
+//                 "Star13","Star14", "Star16", 
+//                 "Ellipse175", "Union", "Union2",
+//                 "Union3", "Union4", "Union5",
+//                 "Star17","Star18", "Star19", 
+//             ];
+        
+//             var tag = "";
+//             for (n=0; n<stickerArr.length; n++){
+//                 tag += "<img class='stickerIndv' src='" 
+//                 + "../static/img/" + stickerArr[n] + "_emp.png'/>"
+//             }
+        
+//             document.getElementById("sticker-bar-palette").innerHTML = tag;
+//         };
 
-function initS(){
+
+
+//초록 스티커
+    // function greenSticker(){
+    //     stickerArr=[
+    //         "Star4","Star5","Star6",
+    //         "Star10","Star11","Star12",
+    //         "Star13","Star14", "Star16", 
+    //         "Ellipse175", "Union", "Union1", 
+    //         "Union2","Union3", "Union4",
+    //         "Star17","Star18", "Star19", 
+    //     ];
+
+    //     var tag = "";
+    //     for (n=0; n<stickerArr.length; n++){
+    //         tag += "<img class='stickerIndv' src='" 
+    //         + "../static/img/sticker_g/" + stickerArr[n] + "_g.png'/>"
+    //     }
+
+    //     document.getElementById("sticker-bar-palette").innerHTML = tag;
+    // };
+
+
+
+    //핑크 스티커
+    // function pinkSticker(){
+    //     stickerArr=[
+    //         "Star4","Star5","Star6",
+    //         "Star10","Star11","Star12",
+    //         "Star13","Star14", "Star16", 
+    //         "Ellipse175", "Union", "Union1", 
+    //         "Union2","Union3", "Union4",
+    //         "Star17","Star18", "Star19", 
+    //     ];
+
+    //     var tag = "";
+    //     for (n=0; n<stickerArr.length; n++){
+    //         tag += "<img class='stickerIndv' src='" 
+    //         + "../static/img/sticker_p/" + stickerArr[n] + "_p.png'/>"
+    //     }
+
+    //     document.getElementById("sticker-bar-palette").innerHTML = tag;
+    // };
+
+
+        //오렌지 스티커
+        function initS(){
             stickerArr=[
                 "Star4","Star5","Star6",
                 "Star10","Star11","Star12",
                 "Star13","Star14", "Star16", 
-                "Ellipse175", "Union", "Union2",
-                "Union3", "Union4", "Union5",
+                "Ellipse175", "Union", "Union1", 
+                "Union2","Union3", "Union4",
                 "Star17","Star18", "Star19", 
             ];
-        
+    
             var tag = "";
             for (n=0; n<stickerArr.length; n++){
                 tag += "<img class='stickerIndv' src='" 
-                + "../static/img/" + stickerArr[n] + "_emp.png'/>"
+                + "../static/img/sticker_o/" + stickerArr[n] + "_o.png'/>"
             }
-        
+    
             document.getElementById("sticker-bar-palette").innerHTML = tag;
         };
