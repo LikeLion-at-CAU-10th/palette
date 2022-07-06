@@ -6,6 +6,7 @@
     margin-top: 3vh;
     margin-bottom: 2vh;
     position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /*게시글 형식 지정*/
@@ -19,11 +20,12 @@
 }
 
 .post-content {
-    font-family: 'notosanKR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.67vh;
     line-height: 1.78;
     letter-spacing: normal;
     text-align: justify;
+    margin: 1vw 0 1vw 0;
 }
 
 
@@ -64,7 +66,7 @@
     width: 15.83vw;
     height: 35vh;
     flex-grow: 0;
-    font-family: 'notosanKR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.67vh;
     line-height: 1.78;
     letter-spacing: normal;
@@ -100,7 +102,7 @@
     width: 15.83vw;
     height: 35vh;
     flex-grow: 0;
-    font-family: 'notosanKR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 1.67vh;
     line-height: 1.78;
     letter-spacing: normal;

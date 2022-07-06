@@ -30,7 +30,7 @@ body {
     width: 5.83vw;
     height: 1.88vw;
     left: 36.40vw;
-    top: 3.13vw;
+    top: 5.35vh;
     text-decoration: none;
     color: #FFFFFF;
     transition:0.1s;
@@ -43,7 +43,7 @@ body {
     width: 2.92vw;
     height: 1.88vw;
     left: 48.54vw;
-    top: 3.06vw;
+    top: 5.35vh;
     text-decoration: none;
     color: #FFFFFF;
     transition:0.1s;
@@ -57,7 +57,7 @@ body {
     width: 6.04vw;
     height: 1.88vw;
     left: 57.76vw;
-    top: 3.06vw;
+    top: 5.35vh;
     transition:0.1s;
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
@@ -68,8 +68,8 @@ body {
     cursor: pointer;
     width: 2.3vw;
     height: 2.3vw;
-    left: 95vw;
-    top: 2.53vw;
+    left: 93.75vw;
+    top: 4.87vh;
     transition:0.1s;
 }
 
@@ -87,7 +87,7 @@ body {
     width: 1.88vw;
     height: 1.88vw;
     left: 57.42vw;
-    top: 7.77vw;
+    top: 13.52vh;
     border-radius: 100%;
     background: rgba(205, 98, 255, 0.9);
     transition:0.1s;
@@ -98,7 +98,7 @@ body {
     width: 1.88vw;
     height: 1.88vw;
     left: 58.60vw;
-    top: 5.62vw; 
+    top: 9.744vh;
     border-radius: 100%;
     background: rgba(255, 58, 58, 0.9);
     transition:0.1s;
@@ -109,7 +109,7 @@ body {
     width: 1.88vw;
     height: 1.88vw;
     left: 61.10vw;
-    top: 5.62vw;
+    top: 9.744vh;
     border-radius: 100%;
     background: rgba(255, 141, 35, 0.9);
     transition:0.1s;
@@ -120,7 +120,7 @@ body {
     width: 1.88vw;
     height: 1.88vw;
     left: 62.28vw;
-    top: 7.77vw;
+    top: 13.68vh;
     border-radius: 100%;
     background: rgba(247, 226, 37, 0.9);
     transition:0.1s;
@@ -131,7 +131,7 @@ body {
     width: 1.88vw;
     height: 1.88vw;
     left: 61.10vw;
-    top: 9.92vw;
+    top: 17.3vh;
     border-radius: 100%;
     background: rgba(85, 214, 90, 0.9);
     transition:0.1s;
@@ -142,7 +142,7 @@ body {
     width: 1.88vw;
     height: 1.88vw;
     left: 58.60vw;
-    top: 9.92vw;
+    top: 17.3vh;
     border-radius: 100%;
     background: rgba(0, 56, 255, 0.9);
     transition:0.1s;
@@ -154,7 +154,7 @@ body {
     width: 1.88vw;
     height: 1.88vw;
     left: 59.85vw;
-    top: 7.77vw;
+    top: 13.52vh;
     border-radius: 100%;
     background: rgba(101, 101, 101, 0.9);
     transition:0.1s;
@@ -173,7 +173,7 @@ body {
     width: 8.33vw;
     height: 8.33vw;
     left: 64.86vw;
-    top: 27.08vw;
+    top: 47.5vh;
     border-radius: 100%;
     background: rgba(205, 98, 255, 0.9);
     transition:0.3s;
@@ -184,7 +184,7 @@ body {
     width: 8.33vw;
     height: 8.33vw;
     left: 58.54vw;
-    top: 27.08vw;
+    top: 47.5vh;
     border-radius: 100%;
     background: rgba(255, 58, 58, 0.9);
     transition:0.3s;
@@ -195,7 +195,7 @@ body {
     width: 8.33vw;
     height: 8.33vw;
     left: 52.22vw;
-    top: 27.08vw;
+    top: 47.5vh;
     border-radius: 100%;
     background: rgba(255, 141, 35, 0.9);
     transition:0.3s;
@@ -206,7 +206,7 @@ body {
     width: 8.33vw;
     height: 8.33vw;
     left: 45.90vw;
-    top: 27.08vw;
+    top: 47.5vh;
     border-radius: 100%;
     background: rgba(247, 226, 37, 0.9);
     transition:0.3s;
@@ -217,7 +217,7 @@ body {
     width: 8.33vw;
     height: 8.33vw;
     left: 39.44vw;
-    top: 27.08vw;
+    top: 47.5vh;
     border-radius: 100%;
     background: rgba(85, 214, 90, 0.9);
     transition:0.3s;
@@ -228,7 +228,7 @@ body {
     width: 8.33vw;
     height: 8.33vw;
     left: 33.13vw;
-    top: 27.08vw;
+    top: 47.5vh;
     border-radius: 100%;
     background: rgba(0, 56, 255, 0.9);
     transition:0.3s;
@@ -239,7 +239,7 @@ body {
     width: 8.33vw;
     height: 8.33vw;
     left: 26.81vw;
-    top: 27.08vw;
+    top: 47.5vh;
     border-radius: 100%;
     background: rgba(101, 101, 101, 0.9);
     transition:0.3s;
