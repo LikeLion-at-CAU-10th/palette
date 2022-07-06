@@ -1,8 +1,13 @@
-var beforeColor; //이전에 선택된 컬러 저장 할 변수
+// main color 와 sticker 탭에 들어갈 내용물에 관한 함수
+//init=main color, init2=sticker
+
+//이전에 선택된 색을 저장할 함수
+var beforeColor; 
 
 //HTML 로딩이 끝난 후
 window.onload = function () {
     init();
+    initS();
     };
 
     function init() {
@@ -106,3 +111,25 @@ window.onload = function () {
             beforeColor = target.id;
 
         }
+
+
+
+
+function initS(){
+            stickerArr=[
+                "Star4","Star5","Star6",
+                "Star10","Star11","Star12",
+                "Star13","Star14", "Star16", 
+                "Ellipse175", "Union", "Union2",
+                "Union3", "Union4", "Union5",
+                "Star17","Star18", "Star19", 
+            ];
+        
+            var tag = "";
+            for (n=0; n<stickerArr.length; n++){
+                tag += "<img class='stickerIndv' src='" 
+                + "../static/img/" + stickerArr[n] + "_emp.png'/>"
+            }
+        
+            document.getElementById("sticker-bar-palette").innerHTML = tag;
+        };
