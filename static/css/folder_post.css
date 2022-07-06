@@ -9,6 +9,11 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
 /*게시글 형식 지정*/
 .post-box {
     width: 16.75vw;
