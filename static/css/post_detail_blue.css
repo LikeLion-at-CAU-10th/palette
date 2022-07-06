@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;700;900&family=Poppins:wght@200;300;400;500;600;700;800&family=Yeon+Sung&display=swap");
+
+body {
+  background-color: #364fc6;
+  margin: 0%;
+}
+
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.logo {
+  width: 5rem;
+  height: 2.7rem;
+  margin-top: 15px;
+  margin-left: 400px;
+}
+.v231_1023 {
+  width: 50px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 20px;
+  left: 1360px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 19px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.v231_1300 {
+  width: 50px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 20px;
+  left: 1155px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 19px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.v231_1301 {
+  width: 50px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 20px;
+  left: 1500px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 19px;
+  opacity: 1;
+  text-align: left;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.account {
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 15px;
+  margin-left: 1750px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.maincolor {
+  height: 3.8rem;
+  background-color: rgba(0, 0, 0, 1);
+  position: absolute;
+  width: 16rem;
+  left: 475px;
+  top: 250px;
+  border-radius: 30px 30px 0 0/ 30px 30px 0 0;
+  display: flex;
+}
+.maincolor > p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: auto;
+}
+.maincolor > .colorbox {
+  position: absolute;
+  top: 23px;
+  left: 210px;
+  width: 20px;
+  height: 20px;
+  background-color: #364fc6;
+}
+
+.prev {
+  height: 3.8rem;
+  background-color: rgba(0, 0, 0, 1);
+  position: absolute;
+  width: 16rem;
+  left: 731px;
+  top: 250px;
+  border-radius: 30px 30px 0 0/ 30px 30px 0 0;
+  display: flex;
+  cursor: pointer;
+}
+.prev > p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: auto;
+}
+.next {
+  height: 3.8rem;
+  background-color: rgba(0, 0, 0, 1);
+  position: absolute;
+  width: 16rem;
+  left: 985px;
+  top: 250px;
+  border-radius: 30px 30px 0 0/ 30px 30px 0 0;
+  display: flex;
+  cursor: pointer;
+}
+.next > p {
+  color: rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 1px;
+  margin: auto;
+}
+.textBox {
+  position: absolute;
+  width: 1310px;
+  height: 1350px;
+  border: solid 0.0694vw #000;
+  background-color: #000;
+  margin-left: 475px;
+  margin-top: 230px;
+}
+
+.darkmo {
+  position: absolute;
+  height: 132px;
+}
+
+body.dark .textBox {
+  background: #fff;
+  border: solid 1px #fff;
+}
+
+body.dark .post {
+  background: #fff;
+}
+
+body.dark h3 {
+  color: #000;
+}
+
+body.dark .textBox .date {
+  color: #a0a0a0;
+}
+
+body.dark .textBox .change {
+  color: #a0a0a0;
+}
+
+body.dark .post p {
+  color: #000000;
+}
+
+body.dark .maincolor {
+  background-color: #fff;
+}
+body.dark .maincolor p {
+  color: #000000;
+}
+body.dark .prev {
+  background-color: #fff;
+}
+body.dark .prev p {
+  color: #000000;
+}
+body.dark .next {
+  background-color: #fff;
+}
+body.dark .next p {
+  color: #000000;
+}
+body.dark .label {
+  background-color: #c7c7c7;
+}
+
+.label {
+  top: -22px;
+  left: 960px;
+  width: 34px;
+  height: 20px;
+  background-color: #474747;
+  border-radius: 50px;
+  transform: scale(1.5);
+  position: absolute;
+  cursor: pointer;
+}
+
+.ball {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.2s ease-out;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(14px);
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.post {
+  width: 1000px;
+  font-family: "NotoSansKR";
+  margin-left: 130px;
+  margin-top: 60px;
+  position: absolute;
+}
+
+.post > p {
+  text-align: justify;
+  line-height: 37px;
+  font-family: "NotoSansKR";
+  color: #ffffff;
+  font-size: 20.5px;
+}
+
+.post > h3 {
+  font-family: "NotoSansKR";
+  line-height: 80px;
+  border-bottom: solid 3.5px rgb(201, 201, 201);
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.post > span.date {
+  font-family: "NotoSansKR";
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.post > span.change {
+  font-family: "NotoSansKR";
+  position: absolute;
+  font-weight: 100;
+  font-size: 18px;
+  color: #ffffff;
+  left: 850px;
+  cursor: pointer;
+}
+
+.pic {
+  width: 1030px;
+  height: 550px;
+  position: relative;
+  top: 50px;
+}
+
+.star_pink {
+  position: absolute;
+  width: 170px;
+  left: -100px;
+  top: 580px;
+}
+
+.star_green {
+  position: absolute;
+  width: 260px;
+  left: -100px;
+  top: 580px;
+}
+
+.star_orange {
+  position: absolute;
+  width: 260px;
+  right: -70px;
+  bottom: -85px;
+}
