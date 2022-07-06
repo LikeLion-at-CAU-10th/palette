@@ -2,6 +2,86 @@ body {
   box-sizing: border-box;
   font-size: 0.875rem;
 }
+.menu-bar {
+  height: 6.11vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.likelion {
+  width: 56.1806vw;
+  height: 6.11vh;
+  text-align: center;
+}
+
+.likelion > img {
+  height: 1.5278vw;
+  width: 3.4722vw;
+  margin: 1.1111vw 31.1806vw 0 21.5278vw;
+}
+
+.bt {
+  width: 22.2917vw;
+  padding: 0.9722vw 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.25vw;
+  font-weight: 700;
+  font-family: "poppins";
+}
+
+.calender {
+  width: 5.8333vw;
+  height: 1.875vw;
+}
+
+.folder {
+  width: 3.8194vw;
+  height: 1.875vw;
+}
+
+.post {
+  width: 2.9167vw;
+  height: 1.875vw;
+}
+
+.button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.calender:hover,
+.folder:hover,
+.post:hover {
+  opacity: 0.8;
+}
+
+.vector {
+  width: 21.5278vw;
+  color: #ffffff;
+  padding: 0.8333vw 1.3889vw 0 0;
+}
+
+.vector > img {
+  width: 2.0833vw;
+  height: 2.0833vw;
+  float: right;
+}
+
+.calender {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
 
 .line2 {
   position: absolute;
