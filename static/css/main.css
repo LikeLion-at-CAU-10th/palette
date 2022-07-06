@@ -8,7 +8,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    height: 100vh;
     background-color: black;
     font-family: 'Poppins', sans-serif;
     -webkit-user-select: none;
@@ -259,11 +258,27 @@ body {
     width: 4.72vw;
     height: 1.88vw;
     left: 47.64vw;
-    top: 54.5vw;
+    top: 93.07vh;
     font-style: normal;
     font-weight: 700;
     font-size: 1.25vw;
     line-height: 1.88vw;
     color: #FFFFFF;
     white-space:nowrap;
+}
+
+/* 애니메이션 추가 */
+
+@keyframes circleShow {
+    from {
+      opacity: 0;
+      /* transform: translateY(100px) scale(0.5); */
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.circles {
+    animation: circleShow 1.5s;
 }
