@@ -24,6 +24,7 @@ body {
   height: 1.5278vw;
   width: 3.4722vw;
   margin: 1.1111vw 31.1806vw 0 21.5278vw;
+  cursor: pointer;
 }
 
 .bt {
