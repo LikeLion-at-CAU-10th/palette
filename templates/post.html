@@ -57,6 +57,7 @@
                         <div id="BoxText" class="imageBox-text" onclick="openTabImage()">image</div>
                         <img class="camera" src="../static/img/camera.png">
                     </div>
+
                     <!-- 색&스티커&이미지 탭 (모달) -->
                     <div class="tab-bar">
                         <div class="TabBar" id="color-bar">
@@ -70,10 +71,15 @@
                         <div class="TabBar" id="sticker-bar">
                             <div id="tab-bar-header" class="sticker-bar-header">
                                 <div id="tab-bar-text" class="sticker-bar-text"> sticker </div>
+                                <img class="sticker_menu" src="../static/img/sticker_menu.png" onclick="openTabStickerPal()">
                                 <span id="closeButton" class="material-symbols-outlined" onclick="closeTabS()">close</span>
                             </div>
                             <div id="sticker-bar-palette" class="color-bar-palette"> </div>
                         </div>
+                        <div id="sticker-color-pal" class="sticker-color-pal"></div>
+                            
+                        
+
                         
                         
                         <div class="TabBar" id="image-bar">

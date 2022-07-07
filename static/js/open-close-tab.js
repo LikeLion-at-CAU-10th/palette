@@ -1,7 +1,9 @@
 
-var priorC=document.getElementById("color-bar").style.z-index;
-var priorS=document.getElementById("sticker-bar").style.z-index;
-var priorI=document.getElementById("image-bar").style.z-index;
+// 가장 최신에 클릭한 탭 띄우기 (나중에 구현)
+// var priorC=document.getElementById("color-bar").style.z-index;
+// var priorS=document.getElementById("sticker-bar").style.z-index;
+// var priorI=document.getElementById("image-bar").style.z-index;
+
 
 // openTab->탭 여는 함수
 function openTabColor(){
@@ -10,11 +12,19 @@ function openTabColor(){
 
 function openTabSticker(){
     document.getElementById("sticker-bar").style.visibility="visible";
+    
 }
 
 function openTabImage(){
     document.getElementById("image-bar").style.visibility="visible";
 }
+
+function openTabStickerPal(){
+    document.getElementById("sticker-color-pal").style.visibility="visible";
+}
+
+
+
 
 
 // closeTab->탭 닫는 함수
@@ -24,6 +34,7 @@ function closeTabC(){
 
 function closeTabS(){
     document.getElementById('sticker-bar').style.visibility="hidden";
+    document.getElementById("sticker-color-pal").style.visibility="hidden";
 }
 
 function closeTabI(){
@@ -31,7 +42,7 @@ function closeTabI(){
 }
 
 
-
+//창 아무 곳 눌러서 창 닫기 (나중 구현)
 
 // const modal = document.getElementById('modal')
 
@@ -48,10 +59,10 @@ function closeTabI(){
 
 
 
-const anywhere = document.querySelector('body');
-anywhere.addEventListener('click', ClickAnytoClose);
+// const anywhere = document.querySelector('body');
+// anywhere.addEventListener('click', ClickAnytoClose);
 
 
-function ClickAnytoClose(){
-    document.getElementById("color-bar").style.visibility="hidden";
-}
+// function ClickAnytoClose(){
+//     document.getElementById("color-bar").style.visibility="hidden";
+// }

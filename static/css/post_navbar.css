@@ -3,7 +3,6 @@
   height: 6.11vh;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-
   margin: -0.7vw 0 8.5vw -23vw;
 
   display: flex;
@@ -32,7 +31,7 @@
 
 .bt {
   width: 22.2917vw;
-  padding: 0.5772vw 0 0 0;
+  padding: 0.9772vw 0 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

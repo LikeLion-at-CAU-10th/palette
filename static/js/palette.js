@@ -1,5 +1,4 @@
 // main color 와 sticker 탭에 들어갈 내용물에 관한 함수
-//init=main color, init2=sticker
 
 //이전에 선택된 색을 저장할 함수
 var beforeColor; 
@@ -7,10 +6,8 @@ var beforeColor;
 //HTML 로딩이 끝난 후
 window.onload = function () {
     init();
-    initS();
-    // orangeSticker();
-    // pinkSticker();
-    // greenSticker();
+    initStickerPal();
+    initStickerBasic();
     };
 
     function init() {
@@ -103,24 +100,24 @@ window.onload = function () {
 
 
 
-// function initS(){
-//             stickerArr=[
-//                 "Star4","Star5","Star6",
-//                 "Star10","Star11","Star12",
-//                 "Star13","Star14", "Star16", 
-//                 "Ellipse175", "Union", "Union2",
-//                 "Union3", "Union4", "Union5",
-//                 "Star17","Star18", "Star19", 
-//             ];
+function initS(){
+            stickerArr=[
+                "Star4","Star5","Star6",
+                "Star10","Star11","Star12",
+                "Star13","Star14", "Star16", 
+                "Ellipse175", "Union", "Union2",
+                "Union3", "Union4", "Union5",
+                "Star17","Star18", "Star19", 
+            ];
         
-//             var tag = "";
-//             for (n=0; n<stickerArr.length; n++){
-//                 tag += "<img class='stickerIndv' src='" 
-//                 + "../static/img/" + stickerArr[n] + "_emp.png'/>"
-//             }
+            var tag = "";
+            for (n=0; n<stickerArr.length; n++){
+                tag += "<img class='stickerIndv' src='" 
+                + "../static/img/" + stickerArr[n] + "_emp.png'/>"
+            }
         
-//             document.getElementById("sticker-bar-palette").innerHTML = tag;
-//         };
+            document.getElementById("sticker-bar-palette").innerHTML = tag;
+        };
 
 
 
@@ -168,21 +165,21 @@ window.onload = function () {
 
 
         //오렌지 스티커
-        function initS(){
-            stickerArr=[
-                "Star4","Star5","Star6",
-                "Star10","Star11","Star12",
-                "Star13","Star14", "Star16", 
-                "Ellipse175", "Union", "Union1", 
-                "Union2","Union3", "Union4",
-                "Star17","Star18", "Star19", 
-            ];
+        // function initS(){
+        //     stickerArr=[
+        //         "Star4","Star5","Star6",
+        //         "Star10","Star11","Star12",
+        //         "Star13","Star14", "Star16", 
+        //         "Ellipse175", "Union", "Union1", 
+        //         "Union2","Union3", "Union4",
+        //         "Star17","Star18", "Star19", 
+        //     ];
     
-            var tag = "";
-            for (n=0; n<stickerArr.length; n++){
-                tag += "<img class='stickerIndv' src='" 
-                + "../static/img/sticker_o/" + stickerArr[n] + "_o.png'/>"
-            }
+        //     var tag = "";
+        //     for (n=0; n<stickerArr.length; n++){
+        //         tag += "<img class='stickerIndv' src='" 
+        //         + "../static/img/sticker_o/" + stickerArr[n] + "_o.png'/>"
+        //     }
     
-            document.getElementById("sticker-bar-palette").innerHTML = tag;
-        };
+        //     document.getElementById("sticker-bar-palette").innerHTML = tag;
+        // };
