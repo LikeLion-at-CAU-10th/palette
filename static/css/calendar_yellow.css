@@ -6,13 +6,12 @@ body {
 }
 
 .menu-bar {
-  height: 7vh;
+  height: 6.11vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: black;
   justify-content: space-between;
-  position: fixed;
 }
 
 .likelion {
