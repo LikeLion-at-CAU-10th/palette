@@ -1,102 +1,225 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;700;900&family=Poppins:wght@200;300;400;500;600;700;800&family=Yeon+Sung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Yeon+Sung&display=swap");
 
 body {
   background-color: #364fc6;
-  margin: 0%;
+  flex-grow: 0;
+  left: fixed;
+  right: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0%;
 }
 
-.maincolor {
-  height: 3.8rem;
-  background-color: rgba(0, 0, 0, 1);
-  position: absolute;
-  width: 16rem;
-  left: 475px;
-  top: 250px;
-  border-radius: 30px 30px 0 0/ 30px 30px 0 0;
-  display: flex;
-}
-.maincolor > p {
-  color: rgba(255, 255, 255, 1);
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 25px;
-  opacity: 1;
-  text-align: center;
-  letter-spacing: 1px;
-  margin: auto;
-}
-.maincolor > .colorbox {
-  position: absolute;
-  top: 23px;
-  left: 210px;
-  width: 20px;
-  height: 20px;
-  background-color: #364fc6;
+.all {
+  padding: 15vw 21.5278vw 3vw;
 }
 
-.prev {
-  height: 3.8rem;
-  background-color: rgba(0, 0, 0, 1);
-  position: absolute;
-  width: 16rem;
-  left: 731px;
-  top: 250px;
-  border-radius: 30px 30px 0 0/ 30px 30px 0 0;
+html {
+  font-size: 62.5%;
+}
+
+.menu-bar {
+  height: 6.11vh;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.likelion {
+  width: 56.1806vw;
+  height: 6.11vh;
+  text-align: center;
+}
+
+.likelion > img {
+  height: 1.5278vw;
+  width: 3.4722vw;
+  margin: 1.1111vw 31.1806vw 0 21.5278vw;
+}
+
+.bt {
+  width: 22.2917vw;
+  padding: 0.9722vw 0 0.9722vw 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.25vw;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.calender {
+  width: 5.8333vw;
+  height: 1.875vw;
+}
+
+.folder {
+  width: 3.8194vw;
+  height: 1.875vw;
+}
+
+.post {
+  width: 2.9167vw;
+  height: 1.875vw;
+}
+
+.button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.calender:hover,
+.folder:hover,
+.post:hover {
+  opacity: 0.8;
+}
+
+.vector {
+  width: 21.5278vw;
+  color: #ffffff;
+  padding: 0.8333vw 1.3889vw 0 0;
+}
+
+.vector > img {
+  width: 2.0833vw;
+  height: 2.0833vw;
+  float: right;
+}
+
+#Box {
+  background-color: rgba(0, 0, 0, 1);
+  width: 12vw;
+  height: 3.125vw;
+  border: solid 0.0694vw transparent;
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
   cursor: pointer;
 }
-.prev > p {
+
+#Box p {
   color: rgba(255, 255, 255, 1);
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 25px;
-  opacity: 1;
-  text-align: center;
-  letter-spacing: 1px;
-  margin: auto;
+  font-family: "Poppins", sans-serif;
+  width: 3.75vw;
+  height: 1.6667vw;
+  margin: 0 0.6944vw 0 0;
+  font-size: 1.1111vw;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  border-color: transparent;
 }
-.next {
-  height: 3.8rem;
-  background-color: rgba(0, 0, 0, 1);
-  position: absolute;
-  width: 16rem;
-  left: 985px;
-  top: 250px;
-  border-radius: 30px 30px 0 0/ 30px 30px 0 0;
+.decoBox {
   display: flex;
+  padding: 0 23.3333vw 0 0;
+  position: relative;
+  height: 3vw;
+
+  border-color: transparent;
+}
+
+.colorBox {
+  display: flex;
+  padding: 0.3vw 0.6vw;
+  justify-content: center;
+  align-items: center;
+
+  border-color: transparent;
+}
+
+.colorBox-text {
+  white-space: nowrap;
+}
+
+.prevBox {
+  display: flex;
+  padding: 0.3vw 0.5vw;
+  justify-content: center;
+  align-items: center;
+
+  /* 메뉴 버튼 겹치게  */
+  position: absolute;
+  left: 13vw;
+}
+
+.nextBox {
+  display: flex;
+  padding: 0.3vw 0.5vw;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 25.3vw;
+}
+
+#Box {
+  background-color: rgba(0, 0, 0, 1);
+  width: 12vw;
+  height: 3.125vw;
+  border: solid 0.0694vw transparent;
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
   cursor: pointer;
 }
-.next > p {
+
+#BoxText {
   color: rgba(255, 255, 255, 1);
-  font-family: Poppins;
-  font-weight: Bold;
-  font-size: 25px;
-  opacity: 1;
-  text-align: center;
-  letter-spacing: 1px;
-  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  width: 3.75vw;
+  height: 1.6667vw;
+  margin: 0 0.6944vw 0 0;
+  font-size: 1.1111vw;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  border-color: transparent;
 }
-.textBox {
-  position: absolute;
-  width: 1310px;
-  height: 1350px;
-  border: solid 0.0694vw #000;
-  background-color: #000;
-  margin-left: 475px;
-  margin-top: 230px;
+
+.prevBox-text {
+  padding-left: 1.7vw;
+}
+
+.nextBox-text {
+  padding-left: 1.7vw;
+}
+.colorBox-color {
+  width: 1vw;
+  height: 1vw;
+  border: #fff3bf;
+  background-color: #fff3bf;
+  margin: 0.1vw 0 0 2.8vw;
+}
+
+.textbox {
+  height: 72vw;
+  border: solid 0.0694vw transparent;
+  background-color: rgba(0, 0, 0, 1);
+  border-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.7vw 0.6vw 0.6vw rgba(0, 0, 0, 0.5);
 }
 
 .darkmo {
   position: absolute;
-  height: 132px;
 }
 
-body.dark .textBox {
+body.dark .textbox {
   background: #fff;
   border: solid 1px #fff;
 }
 
-body.dark .post {
+body.dark .posting {
   background: #fff;
 }
 
@@ -104,45 +227,46 @@ body.dark h3 {
   color: #000;
 }
 
-body.dark .textBox .date {
+body.dark .textbox .date {
   color: #a0a0a0;
 }
 
-body.dark .textBox .change {
+body.dark .textbox .change {
   color: #a0a0a0;
 }
 
-body.dark .post p {
+body.dark .posting p {
   color: #000000;
 }
 
-body.dark .maincolor {
+body.dark #Box {
   background-color: #fff;
 }
-body.dark .maincolor p {
+body.dark #BoxText {
   color: #000000;
 }
-body.dark .prev {
+/*body.dark .prevBox {
+  background-color: #fff;
+}*
+body.dark .prevBox p {
+  color: #000000;
+}
+body.dark .nextBox {
   background-color: #fff;
 }
-body.dark .prev p {
+body.dark .nextBox p {
   color: #000000;
-}
-body.dark .next {
-  background-color: #fff;
-}
-body.dark .next p {
-  color: #000000;
-}
+}*/
+
 body.dark .label {
   background-color: #c7c7c7;
 }
 
 .label {
-  top: -22px;
-  left: 960px;
-  width: 34px;
-  height: 20px;
+  top: -1.1vw;
+  left: 39.5vw;
+  width: 1.7vw;
+  height: 0.9vw;
   background-color: #474747;
   border-radius: 50px;
   transform: scale(1.5);
@@ -154,15 +278,15 @@ body.dark .label {
   position: absolute;
   background-color: #fff;
   border-radius: 50%;
-  width: 16px;
-  height: 16px;
-  top: 2px;
-  left: 2px;
+  width: 0.67vw;
+  height: 0.67vw;
+  top: 0.1vw;
+  left: 0.1vw;
   transition: transform 0.2s ease-out;
 }
 
 .checkbox:checked + .label .ball {
-  transform: translateX(14px);
+  transform: translateX(0.87vw);
 }
 
 .checkbox {
@@ -170,72 +294,72 @@ body.dark .label {
   opacity: 0;
 }
 
-.post {
-  width: 1000px;
-  font-family: "NotoSansKR";
-  margin-left: 130px;
-  margin-top: 60px;
+.posting {
+  font-family: "NotoSansKR", sans-serif;
   position: absolute;
+  width: 42vw;
+  height: 3.125vw;
 }
 
-.post > p {
+.posting > p {
+  padding-top: 1vw;
   text-align: justify;
-  line-height: 37px;
-  font-family: "NotoSansKR";
+  line-height: 1.75vw;
+  font-family: "NotoSansKR", sans-serif;
   color: #ffffff;
-  font-size: 20.5px;
+  font-size: 1vw;
 }
 
-.post > h3 {
-  font-family: "NotoSansKR";
-  line-height: 80px;
-  border-bottom: solid 3.5px rgb(201, 201, 201);
-  font-size: 25px;
+.posting > h3 {
+  padding-top: 2.5vw;
+  font-family: "NotoSansKR", sans-serif;
+  line-height: 4vw;
+  border-bottom: solid 2px rgb(201, 201, 201);
+  font-size: 1.2vw;
   font-weight: bold;
   color: #ffffff;
 }
 
-.post > span.date {
-  font-family: "NotoSansKR";
+.posting > span.date {
+  font-family: "NotoSansKR", sans-serif;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 0.9vw;
   color: #ffffff;
 }
 
-.post > span.change {
-  font-family: "NotoSansKR";
+.posting > span.change {
+  font-family: "NotoSansKR", sans-serif;
   position: absolute;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 0.9vw;
   color: #ffffff;
-  left: 850px;
+  left: 34vw;
   cursor: pointer;
 }
 
 .pic {
-  width: 1030px;
-  height: 550px;
+  width: 42vw;
   position: relative;
-  top: 50px;
+  top: 3vw;
 }
 
 .star_pink {
   position: absolute;
-  width: 170px;
-  left: -100px;
-  top: 580px;
+  width: 7vw;
+  left: -5vw;
+  top: 41vw;
 }
 
 .star_green {
   position: absolute;
-  width: 260px;
-  left: -100px;
-  top: 580px;
+  width: 11vw;
+  left: -4.7vw;
+  top: 38vw;
 }
 
 .star_orange {
   position: absolute;
-  width: 260px;
-  right: -70px;
-  bottom: -85px;
+  width: 10vw;
+  right: -2vw;
+  bottom: -66vw;
 }
