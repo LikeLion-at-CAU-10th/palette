@@ -92,7 +92,7 @@
 
 
 /* 폴더 선택  */
-.folder{
+.movButton{
   display: flex; 
   flex-direction: column;
   align-items: center;
@@ -108,7 +108,7 @@
   height: 12vw;
 }
 
-.folder:hover .fol{
+.movButton:hover .fol{
   visibility: visible;
 }
 
