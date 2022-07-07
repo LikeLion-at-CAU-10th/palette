@@ -27,6 +27,7 @@ html {
   background-color: black;
   justify-content: space-between;
   position: fixed;
+  z-index: 100;
 }
 
 .likelion {
