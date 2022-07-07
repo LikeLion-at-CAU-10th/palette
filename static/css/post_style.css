@@ -1,230 +1,209 @@
-html{
-    font-size: 62.5%;
-    /* 16px=1.6rem; */
+html {
+  font-size: 62.5%;
+  /* 16px=1.6rem; */
 }
 
-body{
-    /* max-width: 100%; */
-    background-color: #000000;
-    flex-grow: 0;
-    padding: 0 21.5278vw 3vw ;
-    left: fixed;
-    right: fixed;
+body {
+  /* max-width: 100%; */
+  background-color: #000000;
+  flex-grow: 0;
+  padding: 0 21.5278vw 3vw;
+  left: fixed;
+  right: fixed;
 
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
     align-items: center; */
 
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none;
-    user-select:none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 
-    /* overflow: hidden;  */
+  /* overflow: hidden;  */
 }
 
-.main-section{
-    margin: 15vw 0 0 0;
+.main-section {
+  margin: 15vw 0 0 0;
 }
-
-
 
 /*'오늘의 색', '스티커', '이미지 첨부' 메뉴 부분*/
-.decoBox{
-    display: flex;
-    padding: 0 23.3333vw 0 0;
-    position: relative;
-    height: 3vw;
+.decoBox {
+  display: flex;
+  padding: 0 23.3333vw 0 0;
+  position: relative;
+  height: 3vw;
 
-    border-color: transparent;
-
-
-
+  border-color: transparent;
 }
 
-.colorBox{
-    display: flex;
-    padding: 0.3vw 0.6vw;
-    justify-content: center;
-    align-items: center;
+.colorBox {
+  display: flex;
+  padding: 0.3vw 0.6vw;
+  justify-content: center;
+  align-items: center;
 
-    border-color: transparent;
-
+  border-color: transparent;
 }
 
-.colorBox-text{
-    white-space: nowrap;
+.colorBox-text {
+  white-space: nowrap;
 }
 
-.stickerBox{
-    display: flex;
-    padding: 0.3vw 0.5vw;
-    justify-content: center;
-    align-items: center;
+.stickerBox {
+  display: flex;
+  padding: 0.3vw 0.5vw;
+  justify-content: center;
+  align-items: center;
 
-    /* 메뉴 버튼 겹치게  */
-    position: absolute;
-    left: 13vw;
-    
+  /* 메뉴 버튼 겹치게  */
+  position: absolute;
+  left: 13vw;
 }
 
-.imageBox{
-    display: flex;
-    padding: 0.3vw 0.5vw;
-    justify-content: center;
-    align-items: center;
+.imageBox {
+  display: flex;
+  padding: 0.3vw 0.5vw;
+  justify-content: center;
+  align-items: center;
 
-     /* 메뉴 버튼 겹치게  */
-    position: absolute;
-    left: 25.3vw;
+  /* 메뉴 버튼 겹치게  */
+  position: absolute;
+  left: 25.3vw;
 }
 
-#Box{
-    background-color: #ffffff;
+#Box {
+  background-color: #ffffff;
 
+  width: 12vw;
+  height: 3.125vw;
+  border: solid 0.0694vw transparent;
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
 
-    width: 12vw;
-    height: 3.1250vw;
-    border: solid 0.0694vw transparent;
-    border-top-left-radius: 2vw;
-    border-top-right-radius: 2vw;
-
-    cursor: pointer;
-
+  cursor: pointer;
 }
 
+#BoxText {
+  color: #000000;
+  font-family: "Poppins-Bold";
 
-#BoxText{
-    color: #000000;
-    font-family: 'Poppins-Bold';
+  width: 3.75vw;
+  height: 1.6667vw;
+  margin: 0 0.6944vw 0 0;
+  font-size: 1.1111vw;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 
-    width: 3.7500vw;
-    height: 1.6667vw;
-    margin: 0 0.6944vw 0 0;
-    font-size: 1.1111vw;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-
-    border-color: transparent;
+  border-color: transparent;
 }
 
-.colorBox-color{
-    width: 1vw;
-    height: 1vw;
-    border: #000000;
-    background-color: #000000;
-    margin: 0.1vw 0 0 2.8vw;
+.colorBox-color {
+  width: 1vw;
+  height: 1vw;
+  border: #000000;
+  background-color: #000000;
+  margin: 0.1vw 0 0 2.8vw;
 }
 
-.Star4{
-    width: 1.5vw;
-    height: 1.5vw;
-    margin: 0.1vw 0 0 0.4vw;
+.Star4 {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin: 0.1vw 0 0 0.4vw;
 }
-.camera{
-    width: 1.5vw;
-    height: 1.5vw;
-    margin: 0.1vw 0 0 0.4vw;
+.camera {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin: 0.1vw 0 0 0.4vw;
 }
 
 /* 글쓰기 부분 */
 
-.textBox{
-    height: 64.2361vw;
-    padding: 0 2.9167vw 1.5vw 0.9722vw;
-    border: solid 0.0694vw transparent;
-    background-color: white;
-    border-color: transparent;
+.textBox {
+  height: 64.2361vw;
+  padding: 0 2.9167vw 1.5vw 0.9722vw;
+  border: solid 0.0694vw transparent;
+  background-color: white;
+  border-color: transparent;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    box-shadow: 0.7vw 0.6vw 0.6vw rgba(0, 0, 0, 0.5);
-
+  box-shadow: 0.7vw 0.6vw 0.6vw rgba(0, 0, 0, 0.5);
 }
 
-#Textone{
-    width: 80%;
-    border-color: transparent;
-    padding: 3vw 0 0 0;
+#Textone {
+  width: 80%;
+  border-color: transparent;
+  padding: 3vw 0 0 0;
 }
 
-#Texttwo{
-    width: 80%;
-    border-color: transparent;
-    padding: 1vw;
+#Texttwo {
+  width: 80%;
+  border-color: transparent;
+  padding: 1vw;
 }
 
-
-
-
-.textTitle{
-    flex-basis: 5%;
-    font-size: 1.2vw;
+.textTitle {
+  flex-basis: 5%;
+  font-size: 1.2vw;
 }
 
-.textMain{
-    flex-basis: 75%;
-    font-size: 1vw;
-    
+.textMain {
+  flex-basis: 75%;
+  font-size: 1vw;
 }
 
-hr{
-    width: 80%;
-    background-color: #d6d5d5;
-    height: 0.05vw;
-    border-color: transparent;
-    
-    
-
+hr {
+  width: 80%;
+  background-color: #d6d5d5;
+  height: 0.05vw;
+  border-color: transparent;
 }
 
 /* 업로드 버튼 */
 /* uploadingButton=container, Upload=item */
 
 .uploadingButton {
-    font-family: "Poppins-Bold";
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2.3264vw;
-    border: solid 0.1vw #000000;
-    border-color: black;
+  font-family: "Poppins-Bold";
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.3264vw;
+  border: solid 0.1vw #000000;
+  border-color: black;
 
-    width: 6vw;
-    height: 2vw;
-    margin: 0 0 -1.5vw 0;
+  width: 6vw;
+  height: 2vw;
+  margin: 0 0 -1.5vw 0;
 }
 
 .Upload {
-    font-size: 1vw;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    padding: 0;
-    margin: 0;
+  font-size: 1vw;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding: 0;
+  margin: 0;
 
-    cursor: pointer;
-    } 
-
-.Upload:hover, .uploadingButton:hover{
-    opacity: 0.5;
+  cursor: pointer;
 }
 
+.Upload:hover,
+.uploadingButton:hover {
+  opacity: 0.5;
+}
 
-input:focus{outline:none;}
-textarea:focus{outline:none;}
-
-
-
-
-
-
-
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
