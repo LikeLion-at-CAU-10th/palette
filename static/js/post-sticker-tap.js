@@ -230,5 +230,3 @@ function stickerColorSet14() {
 
         document.getElementById("sticker-bar-palette").innerHTML = tag;
     };
-
-
