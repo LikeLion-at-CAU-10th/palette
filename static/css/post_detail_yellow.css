@@ -26,6 +26,7 @@ html {
   justify-content: center;
   background-color: black;
   justify-content: space-between;
+  position: fixed;
 }
 
 .likelion {
@@ -92,6 +93,7 @@ html {
   width: 2.0833vw;
   height: 2.0833vw;
   float: right;
+  cursor: pointer;
 }
 
 #Box {
